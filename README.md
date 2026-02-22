@@ -25,9 +25,15 @@ The goal of this project is to build a predictive model that estimates future sa
 
 ---
 
+## 📂 Project Files
+
+- 📄 **[train.csv](Data/train.csv)**
+- 📄 **[test.csv](Data/test.csv)**
+- 🖥️ **[store_sales_forecasting.ipynb](store_sales_forecasting.ipynb)**
 ## 📂 Project Structure
 
-```
+---
+
 Store-Sales-Forecasting/
 │
 ├── Store_Forecast.ipynb
