@@ -1,54 +1,130 @@
-🚀 Store Sales Forecasting Using Machine Learning
+# 🚀 Store Sales Forecasting using Machine Learning
 
-📊 End-to-End Time Series Forecasting Project
-🔍 Business Problem → Data Cleaning → Feature Engineering → Modeling → Evaluation → Insights
+> End-to-End Data Science Project  
+> From Raw Data → EDA → Feature Engineering → Modeling → Evaluation
 
-📌 Project Overview
+---
 
-Retail businesses need accurate sales forecasting to optimize inventory, reduce waste, and maximize profits.
+## 📌 Project Overview
 
-This project builds a machine learning-based Store Sales Forecasting system that predicts future sales using historical store data.
+Accurate sales forecasting is critical for retail businesses to optimize inventory, reduce losses, and improve profitability.
 
-The notebook includes:
+This project builds a Machine Learning model to predict store sales based on historical data. The notebook demonstrates a complete ML workflow including data preprocessing, visualization, feature engineering, and model evaluation.
 
-Data preprocessing
+---
 
-Exploratory Data Analysis (EDA)
+## 🎯 Business Objective
 
-Feature engineering
+Retail stores face challenges such as:
+- Overstocking
+- Understocking
+- Revenue fluctuations
+- Poor demand planning
 
-Model training & evaluation
+The goal of this project is to build a predictive model that estimates future sales accurately and supports data-driven decision-making.
 
-Performance comparison
+---
 
-🎯 Business Problem
+## 📂 Project Structure
 
-Retail store chains struggle with:
+```
+Store-Sales-Forecasting/
+│
+├── Store_Forecast.ipynb
+├── data/
+│   ├── train.csv
+│   ├── test.csv
+│
+├── outputs/
+│   ├── predictions.csv
+│   ├── visualization.png
+│
+├── requirements.txt
+└── README.md
+```
 
-Overstocking
+---
 
-Understocking
+## 🛠️ Tech Stack
 
-Revenue fluctuation
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
 
-Poor demand planning
+---
 
-🎯 Goal: Predict future store sales accurately to support data-driven inventory decisions.
+## 🔎 Exploratory Data Analysis (EDA)
 
-🛠️ Tech Stack
+Performed:
 
-Language: Python 🐍
+- Missing value analysis
+- Distribution analysis
+- Outlier detection and treatment
+- Sales trend visualization
+- Correlation analysis
 
-Libraries:
+### Key Findings:
 
-Pandas
+- Sales data showed positive skewness.
+- Extreme outliers were present.
+- Outlier treatment improved distribution clarity.
+- Cleaned data improved modeling stability.
 
-NumPy
+---
 
-Matplotlib
+## 🧠 Feature Engineering
 
-Seaborn
+- Extracted date-based features (day, month, year)
+- Handled categorical variables
+- Removed extreme outliers
+- Prepared data for regression modeling
 
-Scikit-learn
+---
 
-Model Type: Regression / Time Series ML Model
+## 🤖 Model Building
+
+Trained and evaluated regression models including:
+
+- Linear Regression
+- Random Forest Regressor
+
+### Evaluation Metrics Used:
+
+- RMSE (Root Mean Squared Error)
+- MAE (Mean Absolute Error)
+
+The final model showed improved performance after data preprocessing and feature engineering.
+
+---
+
+## 📊 Results
+
+- Reduced RMSE after outlier handling
+- Improved generalization
+- Better prediction stability
+
+---
+
+## 🚀 Future Improvements
+
+- Hyperparameter tuning
+- XGBoost / LightGBM implementation
+- Log transformation for skewed data
+- Model deployment using Streamlit
+- Docker containerization
+- Cloud deployment (AWS / GCP)
+
+---
+
+## 💼 Skills Demonstrated
+
+- Data Cleaning
+- Exploratory Data Analysis
+- Statistical Understanding
+- Feature Engineering
+- Machine Learning Modeling
+- Model Evaluation
+- Problem Solving
