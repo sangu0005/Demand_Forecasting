@@ -66,6 +66,19 @@ Performed:
 - Sales trend visualization
 - Correlation analysis
 
+## 📊 Data Distribution
+
+### 🔎 Before Processing
+
+![Before Processing](images/before_processing.png)
+
+---
+
+### 📈 After Processing
+
+![After Processing](images/after_processing.png)
+
+
 ### Key Findings:
 
 - Sales data showed positive skewness.
