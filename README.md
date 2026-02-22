@@ -66,6 +66,26 @@ Performed:
 - Sales trend visualization
 - Correlation analysis
 
+
+## 📊 Data Distribution
+
+### 🔎 Before Processing
+
+<p align="center">
+  <img src="Images/before_processing_hist.png" width="400"/>
+  <img src="Images/before_processing.png" width="400"/>
+</p>
+
+---
+
+### 📈 After Processing
+
+<p align="center">
+  <img src="Images/after_processing_hist.png" width="400"/>
+  <img src="Images/after_processing.png" width="400"/>
+</p>
+
+
 ## 📊 Data Distribution
 
 ### 🔎 Before Processing
