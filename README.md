@@ -34,23 +34,6 @@ The goal of this project is to build a predictive model that estimates future sa
 
 ---
 
-Store-Sales-Forecasting/
-│
-├── Store_Forecast.ipynb
-├── data/
-│   ├── train.csv
-│   ├── test.csv
-│
-├── outputs/
-│   ├── predictions.csv
-│   ├── visualization.png
-│
-├── requirements.txt
-└── README.md
-```
-
----
-
 ## 🛠️ Tech Stack
 
 - Python
