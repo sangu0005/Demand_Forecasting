@@ -85,20 +85,6 @@ Performed:
   <img src="Images/after_processing.png" width="400"/>
 </p>
 
-
-## 📊 Data Distribution
-
-### 🔎 Before Processing
-
-![Before Processing](Images/before_processing_hist.png)(Images/before_processing.png)
-
----
-
-### 📈 After Processing
-
-![After Processing](Images/after_processing_hist.png)(Images/after_processing.png)
-
-
 ### Key Findings:
 
 - Sales data showed positive skewness.
@@ -129,6 +115,9 @@ Trained and evaluated regression models including:
 - RMSE (Root Mean Squared Error)
 - MAE (Mean Absolute Error)
 
+- After Model training the Model Score becames **82.7% from 77%**
+- The RMSE value becames **17 from 30**
+- 
 The final model showed improved performance after data preprocessing and feature engineering.
 
 ---
