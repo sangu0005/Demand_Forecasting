@@ -70,13 +70,13 @@ Performed:
 
 ### 🔎 Before Processing
 
-![Before Processing](images/before_processing.png)
+![Before Processing](Images/before_processing_hist.png)(Images/before_processing.png)
 
 ---
 
 ### 📈 After Processing
 
-![After Processing](images/after_processing.png)
+![After Processing](Images/after_processing_hist.png)(Images/after_processing.png)
 
 
 ### Key Findings:
