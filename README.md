@@ -1,4 +1,4 @@
-# 🚀 Store Sales Forecasting using Machine Learning
+# 🚀 Retail Demand Forecasting using Machine Learning
 
 > End-to-End Data Science Project  
 > From Raw Data → EDA → Feature Engineering → Modeling → Evaluation
@@ -9,7 +9,7 @@
 
 Accurate sales forecasting is critical for retail businesses to optimize inventory, reduce losses, and improve profitability.
 
-This project builds a Machine Learning model to predict store sales based on historical data. The notebook demonstrates a complete ML workflow including data preprocessing, visualization, feature engineering, and model evaluation.
+This project builds a Machine Learning model to predict retail demand based on historical transaction data to support inventory optimization  and strategic planning.
 
 ---
 
@@ -29,7 +29,7 @@ The goal of this project is to build a predictive model that estimates future sa
 
 - 📄 **[train.csv](Data/train.csv)**
 - 📄 **[test.csv](Data/test.csv)**
-- 🖥️ **[store_sales_forecasting.ipynb](store_sales_forecasting.ipynb)**
+- 🖥️ **[retail_demand_forecasting.ipynb](retail_demand_forecasting.ipynb)**
 ## 📂 Project Structure
 
 ---
